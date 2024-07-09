@@ -64,3 +64,122 @@ body{
     font-size: 16px;
     font-family: Azeret Mono;
 }
+
+/* web dev section  */
+.why-web-dev-container{
+    width: 1140px;
+    height: 1396px;
+    border: 2px solid red;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+.why-web-dev-container h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    font-family: Azeret Mono;
+    margin: 24px 0px;
+}
+.why-web-dev-container p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    font-family: Azeret Mono;
+    margin-bottom: 24px;
+}
+.why-web-dev-code-image{
+    width: 946px;
+    height: 336px;
+    margin: 0 auto;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    border-radius: 16px;
+    display: flex;
+    margin-bottom: 32px;
+}
+.why-web-dev-code-image-text{
+    width: 50%;
+    height: 336px;
+    padding: 40px 0px 40px 40px;
+}
+.why-web-dev-code-image-text h3{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    font-family: Azeret Mono;
+    
+}
+.why-web-dev-code-image-text p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin-top: 20px;
+}
+.why-web-dev-code-image-pic{
+    width: 50%;
+    height: 336px;
+    padding: 40px 40px 40px 20%;
+}
+.web-dev-btn{
+    width: 160px;
+    height: 47px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 500;
+    background-color: white;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+}
+.why-web-dev-people-image{
+    width: 946px;
+    height: 336px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    margin-bottom: 32px;
+}
+.why-web-dev-people-image-pic{
+    width: 336px;
+    height: 336px;
+    padding: 40px 0px 40px 40px ;
+}
+.why-web-dev-people-image-text{
+    width: 610px;
+    height: 336px;
+    padding: 40px 40px 40px 0px;
+}
+.why-web-dev-people-image-text h3{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    font-family: Azeret Mono;
+}
+.why-web-dev-people-image-text p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    font-family: Azeret Mono;
+    margin-top: 10px;
+    opacity: 0.7;
+
+}
