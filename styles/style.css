@@ -6,6 +6,21 @@
 }
 body{
     font-family: "Azeret Mono", monospace;
+    border: 1px dashed rgb(196, 193, 193);
+}
+nav{
+    width: 1450px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-btn button{
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid gray;
 }
 /* banner section style  */
 .banner-container{
@@ -16,6 +31,7 @@ body{
     background-position: center;
     background-size: cover;
     margin-bottom: 74px;
+    border: 1px dashed rgb(196, 193, 193);
 }
 .banner-image{
     width: 240px;
@@ -63,6 +79,9 @@ body{
     font-weight: 600;
     font-size: 16px;
     font-family: Azeret Mono;
+}
+.banner-btn button:hover{
+    cursor: pointer;
 }
 
 /* web dev section  */
@@ -280,7 +299,7 @@ body{
     opacity: 0.7;
 
 }
-.card button{
+.card a{
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 700;
@@ -290,6 +309,56 @@ body{
     text-decoration-line: underline;
     font-family: Azeret Mono;
     border: none;
+    
+}
+/* next target  */
+.next-target-container{
+    width: 1140px;
+    height: 860px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.next-target-container h1{
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    font-family: Azeret Mono;
+}
+.next-target-container p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    font-family: Azeret Mono;
+    opacity: .7;
+    padding: 25px;
+}
+.next-target-cards{
+    width: 1140px;
+    height: 219px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    padding: 30px;
+    display: flex;
+    gap: 30px;
+
+}
+.next-target-text p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    font-family: Azeret Mono;
+}
+.next-target-text a{
+    color: rgb(13, 19,33);
 }
 /* support-container  */
 .support-container{
@@ -306,6 +375,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 80px;
 }
 .support-content h1{
     color: rgb(255, 255, 255);
@@ -354,4 +424,27 @@ input[type=submit]{
     font-weight: 600;
     font-family: Azeret Mono;
     
+}
+input[type=submit]:hover{
+    cursor: pointer;
+}
+/* Footer section  */
+footer{
+    max-width: 1440px;
+    height: 100px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.ftr-icon a img{
+    padding: 0 10px;
+}
+.ftr-text{
+    color: rgb(13, 19, 33);
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Azeret Mono;
 }
